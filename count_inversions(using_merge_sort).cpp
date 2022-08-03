@@ -33,7 +33,7 @@ void merge(long long *arr,int l,int mid,int r)
 
 void mergesort(long long *arr,int l,int r)
 {
-    if(l==r)
+    if(l>=r)
         return;
     int mid=(l+r)/2;
     mergesort(arr,l,mid);
